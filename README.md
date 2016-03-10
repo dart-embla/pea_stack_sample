@@ -1,3 +1,5 @@
+![Postgres Embla Angular – PEA](http://embla.io/img/pea.svg "The PEA Stack")
+
 # The PEA Stack!
 
 **P**ostgres, **E**mbla, **A**ngular
