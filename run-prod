@@ -1,0 +1,5 @@
+#!/bin/bash -e
+
+pub get
+pub build
+dart bin/server.dart

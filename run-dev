@@ -1,0 +1,12 @@
+#!/bin/bash -e
+
+pub get
+
+pub serve &
+PIDS[0]=$!
+APP_ENV=development embla start &
+PIDS[1]=$!
+
+trap "kill ${PIDS[*]}" SIGINT
+
+wait

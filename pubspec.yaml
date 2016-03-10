@@ -1,0 +1,18 @@
+name: pea_stack_sample
+
+dependencies:
+  embla: ^0.2.0
+  embla_trestle: ^0.1.0
+  browser: ^0.10.0
+  angular2: 2.0.0-beta.8
+  dart_to_js_script_rewriter: ^1.0.1
+  sass: ^0.4.2
+
+transformers:
+- angular2:
+    entry_points: web/index.dart
+- dart_to_js_script_rewriter
+- sass
+
+dev_dependencies:
+  grinder: any
