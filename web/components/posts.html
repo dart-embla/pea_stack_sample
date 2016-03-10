@@ -1,3 +1,18 @@
+<input
+  [value]="newPostTitle"
+  (input)="newPostTitle = $event.target.value"
+  type="text"
+  placeholder="Title..."
+>
+<br>
+<textarea
+  [value]="newPostBody"
+  (input)="newPostBody = $event.target.value"
+  placeholder="Body..."
+></textarea>
+<br>
+<button (click)="savePost($event)">Save Post</button>
+
 <ul>
   <li *ngFor="#post of posts">
     <h4>{{ post.title }}</h4>

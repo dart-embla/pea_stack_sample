@@ -13,4 +13,12 @@ class PostsService {
     return new Post()
       ..apply(map);
   }
+
+  Future<Post> create(String title, String body) async {
+    final HttpRequest response = await HttpRequest.postFormData('/posts', {
+      'title': title,
+      'body': body
+    });
+    return _makePost(JSON.decode(response.responseText));
+  }
 }
