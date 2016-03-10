@@ -1,5 +1,5 @@
 import 'package:grinder/grinder.dart';
-import 'package:trestle/gateway.dart';
+import 'package:embla_trestle/gateway.dart';
 import '../bin/server.dart';
 import 'migrations.dart';
 

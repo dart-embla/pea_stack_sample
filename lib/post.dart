@@ -1,4 +1,4 @@
-import 'package:trestle/model.dart';
+import 'package:embla_trestle/model.dart';
 
 class Post extends Model {
   @field String title;

@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:trestle/gateway.dart';
+import 'package:embla_trestle/gateway.dart';
 
 final migrations = [
   CreatePostsTableMigration
