@@ -1,6 +1,6 @@
 # The PEA Stack!
 
-### **P**ostgres, **E**mbla, **A**ngular
+### <u>P</u>ostgres, <u>E</u>mbla, <u>A</u>ngular
 
 * [Install VirtualBox](https://www.virtualbox.org/)
 * [Install Vagrant](https://docs.vagrantup.com/v2/)
